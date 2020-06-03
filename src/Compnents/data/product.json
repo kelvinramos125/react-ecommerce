@@ -1,0 +1,179 @@
+[
+    {
+      "id": 1,
+      "img": "img/ps4-standard.webp",
+      "imgAlt": "image of ps4 console",
+      "name": "Sony PlayStation 4 Standard Gaming Console",
+      "price": "$248.00",
+      "description": "Sony · PlayStation · PlayStation 4 · PlayStation 4 (Original) · 500 GB · Blu-ray Compatible · With Motion Control · PlayStation Network / Plus · PlayStation Now · Jet Black",
+      "type": "console",
+      "cost": "high",
+      "className": "grid-item ps4__console"
+    },
+    {
+      "id": 2,
+      "img": "img/ps4-slim.webp",
+      "imgAlt": "image of ps4 slim console",
+      "name": "Sony PlayStation 4 Slim Gaming Console",
+      "price":"$269.00",
+      "description": "Sony · PlayStation · PlayStation 4 · PlayStation 4 Slim · 500 GB · Blu-ray Compatible · With Motion Control · PlayStation Network / Plus · PlayStation Now",
+      "type": "console",
+      "cost": "high",
+      "className": "grid-item ps4__console"
+    },
+    {
+      "id": 3,
+      "img": "img/ps4-pro.webp",
+      "imgAlt": "image of ps4 pro console",
+      "name": "Sony PlayStation 4 Pro Gaming Console",
+      "price":"$399.00",
+      "description": "Sony · PlayStation · PlayStation 4 · PlayStation 4 Pro · 1 TB · Blu-ray Compatible · With Motion Control · PlayStation Network / Plus · PlayStation Now",
+      "type": "console",
+      "cost": "high",
+      "className": "grid-item ps4__console" 
+    },
+    {
+      "id": 4,
+      "img": "img/ps4-headset.webp",
+      "imgAlt": "image of ps4 headset",
+      "name": "Sony PlayStation 4 Wireless Platinum Headset",
+      "price":"$399.00",
+      "description": "Sony · PlayStation · PlayStation 4 · PlayStation 4 Pro · 1 TB · Blu-ray Compatible · With Motion Control · PlayStation Network / Plus · PlayStation Now",
+      "type": "accessorie",
+      "cost": "high",
+      "className": "grid-item ps4__accessorie" 
+    },
+    {
+      "id": 5,
+      "img": "img/ps4-controller.webp",
+      "imgAlt": "image of ps4 controller",
+      "name": "PlayStation 4 Onyx Plus Wireless Controller",
+      "price":"$40.79",
+      "description": "HORI · ONYX · PC · PS4 · Gamepad · Wireless",
+      "type": "accessorie",
+      "cost": "low",
+      "className": "grid-item ps4__accessorie"  
+    },
+    {
+      "id": 6,
+      "img": "img/ps4-vr.webp",
+      "imgAlt": "image of ps4 vr headset",
+      "name": "Sony PlayStation 4 VR Blood and Truth and Everybody Golf Bundle",
+      "price":"$349.99",
+      "description": "Sony · PlayStation · PlayStation VR · 100° FOV · 120Hz · With Controller · With Headphones",
+      "type": "accessorie",
+      "cost": "high",
+      "className": "grid-item ps4__accessorie"  
+        },
+        {
+          "id": 7,
+          "img": "img/ps4-hardrive.webp",
+          "imgAlt": "image of ps4 external hardrive",
+          "name": "Sony PlayStation 4 3.5' 2TB Hard Drive Data Bank",
+          "price":"$19.99",
+          "description": "Sony · PlayStation · 2 TB Space· 3.5' Drive",
+          "type": "accessorie",
+          "cost": "low",
+          "className": "grid-item ps4__accessorie"  
+        },
+        {
+          "id": 8,
+          "img": "img/ps4-ssd.webp",
+          "imgAlt": "image of ps4 SSD",
+          "name": "Sony PlayStation 4 SSD",
+          "price":"$45.35",
+          "description": "Seagate · Game Drive for PS4 · 2 TB · USB · External",
+          "type": "accessorie",
+          "cost": "low",
+          "className": "grid-item ps4__accessorie"  
+        },
+        {
+          "id": 9,
+          "img": "img/xboxone-console.webp",
+          "imgAlt": "image of xbox one s console",
+          "name": "Microsoft Xbox One S",
+          "price":"$189.99",
+          "description": "Microsoft · Xbox · Xbox One · Xbox One S · 1 TB · Blu-ray Compatible · Backward Compatible · With Motion Control · Xbox Live / Live Gold",
+          "type": "console",
+          "cost": "medium",
+          "className": "grid-item xbox__console"  
+        },
+        {
+          "id": 10,
+          "img": "img/xboxonex-console.webp",
+          "imgAlt": "image of xbox one x console",
+          "name": "Microsoft Xbox One X - Black",
+          "price":"$229.99",
+          "description": "Microsoft · Xbox · Xbox One · Xbox One X · 1 TB · Blu-ray Compatible · Backward Compatible · With Motion Control · Xbox Live / Live Gold",
+          "type": "console",
+          "cost": "high",
+          "className": "grid-item xbox__console"  
+        },
+        {
+          "id": 11,
+          "img": "img/xboxone-black.webp",
+          "imgAlt": "image of xbox one console black",
+          "name": "Microsoft Xbox One",
+          "price":"$169.00",
+          "description": "Microsoft · Xbox · Xbox One · Xbox One (Original) · 500 GB · Blu-ray Compatible · Backward Compatible · With Motion Control · Xbox Live / Live Gold",
+          "type": "console",
+          "cost": "medium",
+          "className": "grid-item xbox__console"  
+        },
+        {
+          "id": 12,
+          "img": "img/xboxone-controller.webp",
+          "imgAlt": "image of xbox one controller",
+          "name": "Xbox One Wireless Controller - Elite Series 2",
+          "price":"$79.00",
+          "description": "Microsoft · PC · Xbox One · Gamepad · Wireless",
+          "type": "accessorie",
+          "cost": "low",
+          "className": "grid-item accessorie"  
+        },
+        {
+          "id": 13,
+          "img": "img/xboxone-headset.webp",
+          "imgAlt": "image of xbox one headset",
+          "name": "Xbox Turtle Beach Ear Force Stealth 600X",
+          "price":"$106.94",
+          "description": "Turtle Beach · Turtle Beach Stealth · Turtle Beach Stealth 600 · On-ear · Video Game Console · Wireless · Headset · Noise Canceling · For Gaming",
+          "type": "accessorie",
+          "cost": "medium",
+          "className": "grid-item accessorie"  
+        },
+        {
+          "id": 14,
+          "img": "img/xboxone-portable.webp",
+          "imgAlt": "image of portable xbox",
+          "name": "Gen. 2 Case Club Xbox One X/S Portable Gaming Station",
+          "price":"$349.95",
+          "description": "Blu-ray Compatible · Backward Compatible · With Motion Control · Xbox Live / Live Gold · Handheld",
+          "type": "accessorie",
+          "cost": "high",
+          "className": "grid-item accessorie"  
+        },
+        {
+          "id": 15,
+          "img": "img/xboxone-keyboard.webp",
+          "imgAlt": "image of xbox one keyboard",
+          "name": "2.4ghz Wireless Keyboard For Xbox One Accessory Controller Chatpad",
+          "price":"$11.99",
+          "description": "Xbox · Xbox One · Xbox One Keyboard · Wireless Controller · 2.4G receiver ",
+          "type": "accessorie",
+          "cost": "low",
+          "className": "grid-item accessorie"  
+        },
+        {
+          "id": 16,
+          "img": "img/xboxone-fan.webp",
+          "imgAlt": "image of xbox one fan",
+            "name": "Xbox One Cooling Fan 3 Cooler with 2 Ports USB Hub",
+            "price":"$15.87",
+            "description": "Xbox · Xbox One · Xbox One Cooling Fan · 2 USB Ports",
+            "type": "accessorie",
+            "cost": "low",
+            "className": "grid-item accessorie"  
+    }
+
+  ]
