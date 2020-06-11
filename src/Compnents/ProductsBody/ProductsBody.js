@@ -1,5 +1,6 @@
 import React from "react";
 
+//Diconstructs the array in order to obtain info and display the specific info you want
 const ProductsBody = ({ item }) => {
   return (
       <div className="grid-item">
