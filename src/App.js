@@ -1,8 +1,8 @@
 import React from "react";
-import "./Compnents/CSS/style.css";
-import Routes from "./Compnents/Routes/Routes";
-import Navbar from "./Compnents/Navbar/Navbar";
-import Footer from "./Compnents/Footer/Footer";
+import "./Components/CSS/style.css";
+import Routes from "./Components/Routes/Routes";
+import Navbar from "./Components/Navbar/Navbar";
+import Footer from "./Components/Footer/Footer";
 
 class ProductPage extends React.Component {
   render() {

@@ -13,8 +13,9 @@ const Footer = () => {
             <a href = "https://instagram.com"><img className = "instagram" src = "img/instagram.png" alt =  "instagram logo" /></a>
             <a href = "https://facebook.com"><img className = "facebook" src = "img/facebook.png" alt =  "facebook logo" /></a>
         </div>
-        
-        <p className='copyright'>GameWorld &copy; 2020, All Right Reserved</p>
+        <div className='copyright'>
+        <p>GameWorld &copy; 2020, All Right Reserved</p>
+        </div>
         </footer>
        </div>
     );
