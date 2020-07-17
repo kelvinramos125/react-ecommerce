@@ -51,11 +51,7 @@ body{
 
 .logoname__text{
   color: red;
-  font-family: 'myFont';
   font-size: 2.5rem;
-  -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: black;
-  /* text-shadow: black 2px; */
   display: flex;
   align-items: center;
 }
@@ -94,15 +90,16 @@ nav .logoname__text li a:hover{
 /* Slideshow container */
 
 .slideshow-container {
-  position: relative;
+  margin: auto;
+  width: 100%;
+  overflow: auto;
+  padding: 4.375rem 1.25rem;
 }
 
 .slide-img {
-  /* background-size: 100% 100%; */
-  height: 500px;
-  width: 100%;
+  width:100%;
+  height: 700px;
 }
-
 
 /* Number text (1/3 etc) */
 .numbertext {
@@ -117,16 +114,9 @@ section .slide__text {
   text-align: center;
   color: red;
   font-size: 3rem;
-  font-family: 'myFont';
   margin: 0px;
   padding-top: 1rem;
 }
-
-/* @font-face {
-  font-family: 'myFont';
-  src: url('theboldfont.ttf') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  /* url('myfont.ttf') format('truetype'); 
-} */
 
 /* The dots/bullets/indicators */
 .dot {
@@ -166,11 +156,13 @@ section .slide__text {
   display: flex;
   justify-content: space-around;
   margin-top: 15px;
+  margin-bottom: 100px;
 }
 
-.ps4-gamer{
+.ps4-gamer img{
+  /* background-image: url('img/ps4-gamer.jpg'); */
   background-repeat: no-repeat;
-  width: 45%;
+  width: 600px;
   height: 450px;
   background-size: cover;
   display: flex;
@@ -178,18 +170,16 @@ section .slide__text {
 
 .divider{
   background-color: black;
-  height: 450px;
+  height: 550px;
   width: 2%;
   margin: 0 20px;
 }
 
-.xbox-gamer{
+.xbox-gamer img{
   background-repeat: no-repeat;
-  background-size: 100px 80px;
-  width: 45%;
+  width: 600px;
   height: 450px;
   background-size: cover;
-  display: flex;
 }
 
 .slogan {
@@ -197,8 +187,9 @@ section .slide__text {
   justify-content: center;
   align-items: flex-end;
   font-size: 2rem;
-  color: white;
+  color: black;
   font-style: italic;
+  position: absolute;
 } 
 
 .button-look a:hover{
@@ -225,7 +216,7 @@ section .slide__text {
 }
 
 #product-img {
-  /* background-image: url("get-ready.jpg"); */
+  background-image: ("img/get-ready.jpg");
   background-size: 100% 100%;
   height: 500px;
   width: 70%;
@@ -234,7 +225,6 @@ section .slide__text {
 
 .filters-container {
   display: flex;
-  justify-content: space-around;
 }
 
 .grid__filter{
@@ -251,12 +241,12 @@ section .slide__text {
   width: 100px;
   display: flex;
   margin: 20px;
-  /* align-content: right; */
+  margin-left: 100px;
 }
 
 #filterSelect{
   height: 30px;
-  width: 100px;
+  width: 150px;
   border: 2px solid;
   margin: 10px;
   margin-right: 0px;
@@ -265,7 +255,7 @@ section .slide__text {
 
 #priceSelect{
   height: 30px;
-  width: 100px;
+  width: 200px;
   border: 2px solid;
   margin: 10px;
   font-size: 1.2rem;
@@ -278,7 +268,7 @@ section .slide__text {
 span {
   display: none;
 }
-#react-product {
+.react-product {
   display:grid;
   grid-template-columns: repeat(4, 1fr);
   border-style: solid;
@@ -297,8 +287,10 @@ a {
   height: auto;
 }
 
-.grid-item {
+.react-product div{
   background-color: white;
+}
+.grid-item {
   padding: 15px;
   transition: all 233ms ease-in-out;
 }
@@ -383,13 +375,18 @@ footer{
   font-size: 1.3rem;
 }
 
+
 .logo-img{
   height: 95px;
   width: 170px;
 }
 
 .social-container {
-  margin-left: 50px;
+  margin-left: 200px;
+}
+
+.social-container img {
+  margin: 0px 20px;
 }
 
 .instagram {
@@ -425,33 +422,26 @@ footer{
   .logoname__text{
     color: red;
     /* font-family: 'myFont'; */
-    font-size: 2rem;
-    -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: black;
-    /* text-shadow: black 2px; */
+    font-size: 1.5rem;
     display: flex;
     align-items: center;
   }
 
   .logo {
-    width: 75px;
-    height: 50px;
+    display: none;
   }
   
   .ps4-gamer{
-    /* background-image: url('ps4-gamer.jpg'); */
     background-repeat: no-repeat;
-    width: 45%;
+    width: 200px;
     height: 450px;
     background-size: cover;
     display: flex;
   }
 
   .xbox-gamer{
-    /* background-image: url('xbox-gamer.jpg'); */
     background-repeat: no-repeat;
-    background-size: 100px 80px;
-    width: 45%;
+    width: 200px;
     height: 450px;
     background-size: cover;
     display: flex;
@@ -497,7 +487,7 @@ footer{
   }
 
   .xbox-gamer{
-    /* background-image: url('xbox-gamer.jpg'); */
+    /* background-image: url('./img/xbox-gamer.jpg'); */
     background-repeat: no-repeat;
     background-size: 100px 80px;
     width: 45%;
@@ -517,13 +507,13 @@ footer{
 }
 
 @media screen and (max-width: 800px) {
-  #react-product{
+  .react-product{
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (max-width: 600px) {
-  #react-product{
+  .react-product{
     grid-template-columns: repeat(1, 1fr);
   }
 }
