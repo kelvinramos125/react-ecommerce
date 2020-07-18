@@ -52,14 +52,14 @@ class Home extends React.Component {
 
       <div className="overview">
         <div className="ps4-gamer">
-          <img src = "img/ps4-gamer.jpg" />
+          <img src = "img/ps4-gamer.jpg" alt = "ps4 gamer img"/>
           <p className="slogan">"GREATNESS AWAITS"</p>
         </div>
 
         <div className="divider" />
 
         <div className="xbox-gamer">
-          <img src = "img/xbox-gamer.jpg" />
+          <img src = "img/xbox-gamer.jpg" alt = "xbox gamer img"/>
           <p className="slogan">"JUMP AHEAD"</p>
         </div>
       </div>
